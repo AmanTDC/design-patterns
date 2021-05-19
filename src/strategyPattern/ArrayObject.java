@@ -5,7 +5,7 @@ public class ArrayObject {
     ArrayObject(Sorter sorter){
         this.sorter =sorter;
     }
-    void sort(){
+    void performSort(){
         sorter.sort();
     }
 }
