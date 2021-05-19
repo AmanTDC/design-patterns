@@ -8,5 +8,8 @@ public class Main {
 
         allMediaPlayer = new AllMediaPlayer(new VideoResource("Tanhai","mp4",1080));
         allMediaPlayer.showDetails();
+
+        SparseMediaPlayer  sparseMediaPlayer= new SparseMediaPlayer(new VideoResource("Tanhai","webmpg",144));
+        sparseMediaPlayer.showDetails();
     }
 }
